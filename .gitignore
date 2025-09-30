@@ -399,3 +399,14 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Python
+.venv/
+venv/
+.env
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Ignore generated requirements if you want to regenerate
+requirements.txt
